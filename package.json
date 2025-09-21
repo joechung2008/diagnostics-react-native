@@ -51,6 +51,7 @@
     "lint": "run-s lint:*",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
+    "preview:web": "vite preview --config web/vite.config.ts",
     "run:android": "react-native run-android",
     "run:ios": "react-native run-ios",
     "run:web": "vite --config web/vite.config.ts",
