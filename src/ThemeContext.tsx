@@ -41,13 +41,13 @@ export const lightTheme: ThemeColors = {
   surfaceSecondary: '#e9ecef',
 
   text: '#212529',
-  textSecondary: '#6c757d',
-  textTertiary: '#adb5bd',
+  textSecondary: '#495057',
+  textTertiary: '#495057',
 
   border: '#dee2e6',
   borderSecondary: '#e9ecef',
 
-  primary: '#007bff',
+  primary: '#0056b3',
   primaryText: '#ffffff',
   accent: '#28a745',
 
@@ -67,13 +67,13 @@ export const darkTheme: ThemeColors = {
   surfaceSecondary: '#2d2d2d',
 
   text: '#ffffff',
-  textSecondary: '#b0b0b0',
-  textTertiary: '#808080',
+  textSecondary: '#cccccc',
+  textTertiary: '#aaaaaa',
 
   border: '#404040',
   borderSecondary: '#333333',
 
-  primary: '#0d6efd',
+  primary: '#4dabf7',
   primaryText: '#ffffff',
   accent: '#198754',
 
