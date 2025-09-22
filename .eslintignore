@@ -1,0 +1,13 @@
+# Ignore build and generated directories
+node_modules/
+dist/
+.bundle/
+android/
+ios/
+
+# Editor / OS files
+.vscode/
+.DS_Store
+
+# Tests output
+coverage/
