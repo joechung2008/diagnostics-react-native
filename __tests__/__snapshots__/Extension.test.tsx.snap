@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Extension renders correctly with all props 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": 16,
+      "padding": 10,
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        {
+          "color": "#212529",
+          "fontSize": 18,
+          "fontWeight": "600",
+          "marginBottom": 10,
+        }
+      }
+    >
+      test-extension
+    </Text>
+    <Configuration
+      config={
+        {
+          "apiUrl": "https://api.example.com",
+          "timeout": "30000",
+        }
+      }
+    />
+    <StageDefinition
+      stageDefinition={
+        {
+          "development": [
+            "dev1",
+            "dev2",
+          ],
+          "production": [
+            "prod1",
+          ],
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Extension renders correctly with config only 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": 16,
+      "padding": 10,
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        {
+          "color": "#212529",
+          "fontSize": 18,
+          "fontWeight": "600",
+          "marginBottom": 10,
+        }
+      }
+    >
+      config-only-extension
+    </Text>
+    <Configuration
+      config={
+        {
+          "debug": "true",
+          "logLevel": "info",
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Extension renders correctly with minimal props 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": 16,
+      "padding": 10,
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        {
+          "color": "#212529",
+          "fontSize": 18,
+          "fontWeight": "600",
+          "marginBottom": 10,
+        }
+      }
+    >
+      minimal-extension
+    </Text>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Extension renders correctly with stage definition only 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": 16,
+      "padding": 10,
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        {
+          "color": "#212529",
+          "fontSize": 18,
+          "fontWeight": "600",
+          "marginBottom": 10,
+        }
+      }
+    >
+      stage-only-extension
+    </Text>
+    <StageDefinition
+      stageDefinition={
+        {
+          "production": [
+            "prod1",
+            "prod2",
+          ],
+          "staging": [
+            "stage1",
+          ],
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;

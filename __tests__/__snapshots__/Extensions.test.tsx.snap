@@ -1,0 +1,414 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Extensions renders correctly with empty extensions 1`] = `
+<RCTScrollView
+  accessibilityLabel="Extensions"
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "flexGrow": 0,
+      "flexShrink": 1,
+      "minWidth": 0,
+      "padding": 10,
+    }
+  }
+>
+  <View />
+</RCTScrollView>
+`;
+
+exports[`Extensions renders correctly with extension errors (filtered out) 1`] = `
+<RCTScrollView
+  accessibilityLabel="Extensions"
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "flexGrow": 0,
+      "flexShrink": 1,
+      "minWidth": 0,
+      "padding": 10,
+    }
+  }
+>
+  <View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#f8f9fa",
+          "borderColor": "#dee2e6",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#212529",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        good-extension
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Extensions renders correctly with multiple extensions 1`] = `
+<RCTScrollView
+  accessibilityLabel="Extensions"
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "flexGrow": 0,
+      "flexShrink": 1,
+      "minWidth": 0,
+      "padding": 10,
+    }
+  }
+>
+  <View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#f8f9fa",
+          "borderColor": "#dee2e6",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#212529",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        extension-a
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#f8f9fa",
+          "borderColor": "#dee2e6",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#212529",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        extension-b
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#f8f9fa",
+          "borderColor": "#dee2e6",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#212529",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        extension-c
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Extensions renders correctly with single extension 1`] = `
+<RCTScrollView
+  accessibilityLabel="Extensions"
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "flexGrow": 0,
+      "flexShrink": 1,
+      "minWidth": 0,
+      "padding": 10,
+    }
+  }
+>
+  <View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#f8f9fa",
+          "borderColor": "#dee2e6",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#212529",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        single-extension
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Extensions renders correctly without onLinkClick handler 1`] = `
+<RCTScrollView
+  accessibilityLabel="Extensions"
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "flexGrow": 0,
+      "flexShrink": 1,
+      "minWidth": 0,
+      "padding": 10,
+    }
+  }
+>
+  <View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#f8f9fa",
+          "borderColor": "#dee2e6",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#212529",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        test-extension
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

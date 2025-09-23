@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`AppContent renders correctly 1`] = `
+<View>
+  <AppToolbar
+    environment="https://api.example.com"
+    handleEnvironmentChange={[MockFunction]}
+    handlePaasServerlessPress={[MockFunction]}
+    handleWebsitesPress={[MockFunction]}
+    setShowEnvironmentPicker={[MockFunction]}
+    showEnvironmentPicker={false}
+    showPaasServerless={false}
+  />
+  <AppTabHeaders
+    selectedTab="extensions"
+    setSelectedTab={[MockFunction]}
+    setShowList={[MockFunction]}
+    showList={true}
+  />
+  <AppTabPanels
+    diagnostics={null}
+    error={null}
+    extension={null}
+    handleLinkClick={[MockFunction]}
+    pending={false}
+    selectedTab="extensions"
+    showList={true}
+  />
+</View>
+`;

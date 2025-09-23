@@ -3,5 +3,5 @@
   "compilerOptions": {
     "lib": ["dom", "esnext"]
   },
-  "include": ["src", "web"]
+  "include": ["__tests__", "src", "web"]
 }

@@ -32,7 +32,7 @@ type ExtensionProps = ExtensionInfo;
 
 interface ExtensionsProps {
   extensions: Record<string, Extension>;
-  onLinkClick(ev?: any, item?: KeyedNavLink);
+  onLinkClick(item?: KeyedNavLink);
 }
 
 interface KeyValuePair<TValue> {

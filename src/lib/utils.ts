@@ -19,3 +19,13 @@ export function toNavLink({ extensionName }: ExtensionInfo): KeyedNavLink {
 export function when<T>(condition: boolean, ...args: T[]): T[] {
   return condition ? args : [];
 }
+
+export async function fetchDiagnostics(
+  environment: string,
+): Promise<Diagnostics> {
+  const response = await fetch(environment);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch diagnostics: ${response.statusText}`);
+  }
+  return response.json();
+}

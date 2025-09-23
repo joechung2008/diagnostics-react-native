@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { ScrollView, Text, TouchableOpacity } from 'react-native';
-import { byKey, isExtensionInfo, toNavLink } from './utils';
+import { byKey, isExtensionInfo, toNavLink } from '@/lib/utils';
 import { useTheme } from './ThemeContext';
 
 const Extensions: React.FC<ExtensionsProps> = ({ extensions, onLinkClick }) => {
@@ -46,7 +46,7 @@ const Extensions: React.FC<ExtensionsProps> = ({ extensions, onLinkClick }) => {
         <TouchableOpacity
           key={link.key}
           style={dynamicStyles.navButton}
-          onPress={e => onLinkClick?.(e, link)}
+          onPress={() => onLinkClick?.(link)}
         >
           <Text style={dynamicStyles.buttonText}>{link.name}</Text>
         </TouchableOpacity>

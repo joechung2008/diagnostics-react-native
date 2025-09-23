@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`BuildInfo renders correctly with build version 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "padding": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#f8f9fa",
+        "borderColor": "#dee2e6",
+        "borderWidth": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#f8f9fa",
+          "borderBottomColor": "#dee2e6",
+          "borderBottomWidth": 1,
+          "flexDirection": "row",
+          "paddingBottom": 5,
+          "paddingTop": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#212529",
+            "flex": 1,
+            "fontWeight": "bold",
+            "paddingLeft": 5,
+            "paddingRight": 5,
+          }
+        }
+      >
+        Name
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#212529",
+            "flex": 1,
+            "fontWeight": "bold",
+            "paddingLeft": 5,
+            "paddingRight": 5,
+          }
+        }
+      >
+        Value
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "borderBottomColor": "#dee2e6",
+          "borderBottomWidth": 1,
+          "flexDirection": "row",
+          "paddingBottom": 5,
+          "paddingTop": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "flex": 1,
+              "minWidth": 0,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            },
+            {
+              "color": "#212529",
+              "flex": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        Build Version
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "flex": 1,
+              "minWidth": 0,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            },
+            {
+              "color": "#212529",
+              "flex": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        1.0.0
+      </Text>
+    </View>
+  </View>
+</View>
+`;
