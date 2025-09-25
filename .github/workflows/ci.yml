@@ -28,7 +28,7 @@ jobs:
         run: npm ci
 
       - name: Type check web code
-        run: npm run typecheck:web
+        run: npm run check
 
       - name: Build for web
         run: npm run build:web
