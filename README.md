@@ -129,10 +129,11 @@ The web development server provides:
 - `npm run ios` - Run on iOS simulator/device
 - `npm run web` - Start web development server
 - `npm run build:web` - Build for web production
-- `npm test` - Run Jest tests
-- `npm run lint` - Run ESLint and Prettier checks
+- `npm run check` - Type check web-specific code
 - `npm run format` - Format code with Prettier
-- `npm run typecheck:web` - Type check web-specific code
+- `npm run lint` - Run ESLint and Prettier checks
+- `npm run preview` - Preview the built web app
+- `npm test` - Run Jest tests
 
 ## Modifying Your App
 

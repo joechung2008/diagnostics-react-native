@@ -1,8 +1,6 @@
 {
   "dependencies": {
-    "@react-native/new-app-screen": "^0.81.1",
     "react": "19.1.1",
-    "react-dom": "^19.1.1",
     "react-native": "0.81.4",
     "react-native-safe-area-context": "^5.6.1",
     "react-native-web": "^0.21.1"
@@ -45,19 +43,19 @@
   "name": "@diagnostics/react-native",
   "private": true,
   "scripts": {
+    "android": "react-native run-android",
     "build:web": "vite build --config ./web/vite.config.ts --emptyOutDir",
+    "check": "tsc --noEmit -p tsconfig.web.json",
     "format": "prettier --write .",
+    "ios": "react-native run-ios",
     "lint": "run-s lint:*",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
-    "preview:web": "vite preview --config web/vite.config.ts",
-    "run:android": "react-native run-android",
-    "run:ios": "react-native run-ios",
-    "run:web": "vite --config web/vite.config.ts",
+    "preview": "vite preview --config web/vite.config.ts",
     "start": "react-native start",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "typecheck:web": "tsc --noEmit -p tsconfig.web.json"
+    "web": "vite --config web/vite.config.ts"
   },
   "version": "0.0.1"
 }
