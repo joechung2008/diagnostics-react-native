@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+yarn-error.log
+android/app/build
+ios/build
+*.gradle
+*.iml
+.idea
+.vscode
+coverage
+dist
+build
+.env
+*.keystore
+*.jks
+__tests__/
