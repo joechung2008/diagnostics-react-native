@@ -1,7 +1,16 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`AppContent renders correctly 1`] = `
-<View>
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+>
   <AppToolbar
     environment="https://api.example.com"
     handleEnvironmentChange={[MockFunction]}
@@ -26,5 +35,5 @@ exports[`AppContent renders correctly 1`] = `
     selectedTab="extensions"
     showList={true}
   />
-</View>
+</RNCSafeAreaView>
 `;

@@ -5,7 +5,8 @@ import { useAppContent } from '@/hooks/useAppContent';
 import { useStyles } from '@/hooks/useAppStyles';
 import { ThemeProvider, useTheme } from '@/ThemeContext';
 import React from 'react';
-import { View } from 'react-native';
+import { Platform, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const AppContent: React.FC = () => {
   const { colors } = useTheme();
@@ -30,9 +31,11 @@ const AppContent: React.FC = () => {
     handleWebsitesPress,
   } = useAppContent();
 
+  const Container = Platform.OS === 'web' ? View : SafeAreaView;
+
   return (
     <ThemeProvider>
-      <View style={dynamicStyles.flexbox}>
+      <Container style={dynamicStyles.flexbox}>
         <AppToolbar
           environment={environment}
           setShowEnvironmentPicker={setShowEnvironmentPicker}
@@ -57,7 +60,7 @@ const AppContent: React.FC = () => {
           showList={showList}
           handleLinkClick={handleLinkClick}
         />
-      </View>
+      </Container>
     </ThemeProvider>
   );
 };

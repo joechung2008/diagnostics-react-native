@@ -15,7 +15,11 @@ export default defineConfig({
   root: path.resolve(__dirname),
   resolve: {
     alias: {
-      'react-native': 'react-native-web',
+      'react-native': require.resolve('react-native-web'),
+      'react-native-safe-area-context': path.resolve(
+        __dirname,
+        '../src/web-mocks/safe-area-context.tsx',
+      ),
     },
   },
 });

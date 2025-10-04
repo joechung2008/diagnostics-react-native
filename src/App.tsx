@@ -1,11 +1,14 @@
 import AppContent from './AppContent';
 import { ThemeProvider } from './ThemeContext';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 function App() {
   return (
-    <ThemeProvider>
-      <AppContent />
-    </ThemeProvider>
+    <SafeAreaProvider>
+      <ThemeProvider>
+        <AppContent />
+      </ThemeProvider>
+    </SafeAreaProvider>
   );
 }
 
